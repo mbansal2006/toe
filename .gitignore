@@ -1,0 +1,22 @@
+cat > .gitignore <<EOF
+# macOS system files
+.DS_Store
+
+# Python virtual environments
+.venv/
+
+# Audio and binary data
+*.wav
+*.pth
+*.gguf
+
+# Model folders and cache
+models/
+tts_cache/
+__pycache__/
+
+# Build artifacts
+llama.cpp/
+llama-run
+llama-mtmd-cli
+EOF
